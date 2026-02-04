@@ -1,0 +1,18 @@
+﻿<Page x:Class="LibraryGUI.Views.ShowDatas"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:LibraryGUI.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="ShowDatas">
+
+    <Grid>
+        <DataGrid x:Name="dataGrid1" AutoGenerateColumns="True" Margin="22,35,10,153"/>
+        <Button x:Name="szerzok_Button" Content="Button" HorizontalAlignment="Left" Margin="34,328,0,0" VerticalAlignment="Top" Width="157" Height="51" Click="szerzok_Click"/>
+        <Button x:Name="konyvek_Button" Content="Button" HorizontalAlignment="Center" Margin="0,328,0,0" VerticalAlignment="Top" Width="156" Height="51" Click="konyvek_Click"/>
+        <Button x:Name="kategoriak_Button" Content="Button" HorizontalAlignment="Left" Margin="586,328,0,0" VerticalAlignment="Top" Width="156" Height="51" Click="kategoriak_Click"/>
+
+    </Grid>
+</Page>
