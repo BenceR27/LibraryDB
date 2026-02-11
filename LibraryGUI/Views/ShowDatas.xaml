@@ -10,9 +10,9 @@
 
     <Grid>
         <DataGrid x:Name="dataGrid1" AutoGenerateColumns="True" Margin="22,35,10,153"/>
-        <Button x:Name="szerzok_Button" Content="Button" HorizontalAlignment="Left" Margin="34,328,0,0" VerticalAlignment="Top" Width="157" Height="51" Click="szerzok_Click"/>
-        <Button x:Name="konyvek_Button" Content="Button" HorizontalAlignment="Center" Margin="0,328,0,0" VerticalAlignment="Top" Width="156" Height="51" Click="konyvek_Click"/>
-        <Button x:Name="kategoriak_Button" Content="Button" HorizontalAlignment="Left" Margin="586,328,0,0" VerticalAlignment="Top" Width="156" Height="51" Click="kategoriak_Click"/>
+        <Button x:Name="szerzok_Button" Content="Szerzők" HorizontalAlignment="Left" Margin="34,328,0,0" VerticalAlignment="Top" Width="157" Height="51" Click="szerzok_Click"/>
+        <Button x:Name="konyvek_Button" Content="Könyvek" HorizontalAlignment="Center" Margin="0,328,0,0" VerticalAlignment="Top" Width="156" Height="51" Click="konyvek_Click"/>
+        <Button x:Name="kategoriak_Button" Content="Kategóriák" HorizontalAlignment="Left" Margin="586,328,0,0" VerticalAlignment="Top" Width="156" Height="51" Click="kategoriak_Click"/>
 
     </Grid>
 </Page>

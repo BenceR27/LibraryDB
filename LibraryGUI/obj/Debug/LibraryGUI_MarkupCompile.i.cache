@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\rizb\source\repos\LibraryGUI\LibraryGUI\App.xaml
-2-810175101
+3-452196194
 
-12-1703387803
+14-1463861381
 571946829561
-MainWindow.xaml;Views\ShowDatas.xaml;
+MainWindow.xaml;Views\CreateDatas.xaml;Views\ShowDatas.xaml;
 
 True
 
