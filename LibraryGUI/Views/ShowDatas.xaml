@@ -7,13 +7,6 @@
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="ShowDatas">
-    <Page.Background>
-        <LinearGradientBrush EndPoint="1,1" StartPoint="0,0">
-            <GradientStop Color="#FF373438" Offset="0.126"/>
-            <GradientStop Color="#FF041D4E" Offset="1"/>
-        </LinearGradientBrush>
-    </Page.Background>
-
     <Grid>
         <DataGrid x:Name="dataGrid1"
           AutoGenerateColumns="True"
