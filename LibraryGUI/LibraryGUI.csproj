@@ -182,6 +182,9 @@
     </ApplicationDefinition>
     <Compile Include="Datas\Create.cs" />
     <Compile Include="Models\LibraryResults.cs" />
+    <Compile Include="Views\CreateAuthors.xaml.cs">
+      <DependentUpon>CreateAuthors.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ShowDatas.xaml.cs">
       <DependentUpon>ShowDatas.xaml</DependentUpon>
     </Compile>
@@ -198,6 +201,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\CreateAuthors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\ShowDatas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
