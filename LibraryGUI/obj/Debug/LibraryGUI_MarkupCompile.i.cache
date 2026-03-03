@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\rizb\source\repos\LibraryGUI\LibraryGUI\obj\Debug\
+C:\Users\rizbe\Source\Repos\LibraryDB\LibraryGUI\obj\Debug\
 LibraryGUI
 none
 false
 DEBUG;TRACE
-C:\Users\rizb\source\repos\LibraryGUI\LibraryGUI\App.xaml
-3-452196194
+C:\Users\rizbe\Source\Repos\LibraryDB\LibraryGUI\App.xaml
+2-810175101
 
-14-1463861381
-571946829561
-MainWindow.xaml;Views\CreateDatas.xaml;Views\ShowDatas.xaml;
+14510334865
+581603348535
+MainWindow.xaml;Views\ShowDatas.xaml;
 
-True
+False
 
