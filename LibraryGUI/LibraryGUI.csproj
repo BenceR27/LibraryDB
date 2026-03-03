@@ -181,6 +181,7 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Datas\Create.cs" />
+    <Compile Include="Datas\UpdateDelete.cs" />
     <Compile Include="Models\LibraryResults.cs" />
     <Compile Include="Views\CreateAuthors.xaml.cs">
       <DependentUpon>CreateAuthors.xaml</DependentUpon>
@@ -190,6 +191,9 @@
     </Compile>
     <Compile Include="Views\CreateCategory.xaml.cs">
       <DependentUpon>CreateCategory.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\EditBooks.xaml.cs">
+      <DependentUpon>EditBooks.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ShowDatas.xaml.cs">
       <DependentUpon>ShowDatas.xaml</DependentUpon>
@@ -216,6 +220,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\CreateCategory.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\EditBooks.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

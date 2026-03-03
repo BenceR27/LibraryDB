@@ -193,3 +193,5 @@ C:\Users\rizbe\Source\Repos\LibraryDB\LibraryGUI\obj\Debug\LibraryGUI.exe
 C:\Users\rizbe\Source\Repos\LibraryDB\LibraryGUI\obj\Debug\LibraryGUI.pdb
 C:\Users\rizbe\Source\Repos\LibraryDB\LibraryGUI\obj\Debug\Views\CreateCategory.g.cs
 C:\Users\rizbe\Source\Repos\LibraryDB\LibraryGUI\obj\Debug\Views\CreateCategory.baml
+C:\Users\rizbe\Source\Repos\LibraryDB\LibraryGUI\obj\Debug\Views\EditBooks.baml
+C:\Users\rizbe\Source\Repos\LibraryDB\LibraryGUI\obj\Debug\Views\EditBooks.g.cs

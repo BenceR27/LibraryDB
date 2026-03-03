@@ -1,29 +1,49 @@
 ﻿using LibraryGUI.Datas;
 using LibraryGUI.Models;
-using System.Collections;
-using System.Collections.Generic;
 using System.Windows;
 using System.Windows.Controls;
-
+using System.Windows.Input;
 
 namespace LibraryGUI.Views
 {
-    /// <summary>
-    /// Interaction logic for ShowDatas.xaml
-    /// </summary>
     public partial class ShowDatas : Page
     {
+        private readonly Read _read = new Read();
 
         public ShowDatas()
         {
             InitializeComponent();
+            LoadBooks();
         }
 
-        private void dataGrid1_AutoGeneratingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
+        private void LoadBooks()
         {
-            if (e.PropertyType.IsClass && e.PropertyType != typeof(string))
+            dataGrid1.ItemsSource = _read.ReadBooks();
+        }
+
+        private void DataGridRow_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if (dataGrid1.SelectedItem == null)
+                return;
+
+            // Ha Books típus
+            if (dataGrid1.SelectedItem is Books selectedBook)
             {
-                e.Cancel = true;
+                var editWindow = new EditBooks(selectedBook.BookId)
+                {
+                    Owner = Application.Current.MainWindow
+                };
+
+                bool? result = editWindow.ShowDialog();
+
+                if (result == true)
+                {
+                    LoadBooks(); 
+                }
+            }
+            else
+            {
+                MessageBox.Show("Nincs ilyen típusú adat a táblában");
             }
         }
     }

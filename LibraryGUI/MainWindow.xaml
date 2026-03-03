@@ -26,18 +26,6 @@
                 <MenuItem Header="Categories" Click="MenuItem_Click_4"/>
                 <MenuItem Header="Books" Click="MenuItem_Click_5"/>
             </MenuItem>
-
-            <MenuItem Header="_Update">
-                <MenuItem Header="Authors"/>
-                <MenuItem Header="Categories"/>
-                <MenuItem Header="Books"/>
-            </MenuItem>
-
-            <MenuItem Header="_Delete">
-                <MenuItem Header="Authors"/>
-                <MenuItem Header="Categories"/>
-                <MenuItem Header="Books"/>
-            </MenuItem>
         </Menu>
         <Frame x:Name="MainPage" Padding="15"/>
     </Grid>

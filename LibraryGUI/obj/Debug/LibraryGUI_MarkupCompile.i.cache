@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\rizbe\Source\Repos\LibraryDB\LibraryGUI\App.xaml
-5901771213
+6579088415
 
-17-643910669
+19-873305110
 581603348535
-MainWindow.xaml;Views\CreateAuthors.xaml;Views\CreateBooks.xaml;Views\CreateCategory.xaml;Views\ShowDatas.xaml;
+MainWindow.xaml;Views\CreateAuthors.xaml;Views\CreateBooks.xaml;Views\CreateCategory.xaml;Views\EditBooks.xaml;Views\ShowDatas.xaml;
 
-True
+False
 
