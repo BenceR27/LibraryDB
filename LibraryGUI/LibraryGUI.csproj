@@ -185,6 +185,9 @@
     <Compile Include="Views\CreateAuthors.xaml.cs">
       <DependentUpon>CreateAuthors.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\CreateBooks.xaml.cs">
+      <DependentUpon>CreateBooks.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\ShowDatas.xaml.cs">
       <DependentUpon>ShowDatas.xaml</DependentUpon>
     </Compile>
@@ -202,6 +205,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\CreateAuthors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\CreateBooks.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

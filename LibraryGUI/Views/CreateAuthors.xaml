@@ -20,16 +20,18 @@
                 Width="200">
 
             <Label Content="Adja meg a szerző nevét"
+                   Foreground="White"
                FontWeight="Bold"
                Margin="0,0,0,5"/>
 
-            <Border BorderBrush="Black"
+            <Border BorderBrush="White"
                 BorderThickness="0,0,0,2"
                 Margin="0,0,0,15">
 
                 <TextBox x:Name="authorText"
                      BorderThickness="0"
-                     Background="Transparent"
+                         Foreground="White"
+                     Background="Gray"
                      Height="30"
                      FontSize="14"/>
             </Border>
@@ -37,7 +39,7 @@
             <Button Content="Hozzáadás"
                 Height="35"
                 FontWeight="Bold"
-                Background="CornflowerBlue"
+                Background="DarkSeaGreen"
                 Foreground="White"
                 Click="Button_Click"/>
 
